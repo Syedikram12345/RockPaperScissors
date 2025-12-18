@@ -42,17 +42,17 @@ h1{
   justify-content : center;
 }
 #rock{
-  background-image : url("assets/stone.png");
+  background-image : url("Assets/stone.png");
   background-size : cover;
   background-position : center;
 }
 #paper{
-  background-image : url("assets/paper.png");
+  background-image : url("Assets/paper.png");
   background-size : cover;
   background-position : center;
 }
 #scissors{
-  background-image : url("assets/scissors.png");
+  background-image : url("Assets/scissors.png");
   background-size : cover;
     background-position : center;
 }
