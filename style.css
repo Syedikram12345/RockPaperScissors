@@ -1,0 +1,103 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+body{
+  background-color : #E4959E;
+    font-family: "Press Start 2P", sans-serif;
+}
+.userChoice:hover{
+  border : 5px solid black;
+}
+h1{
+  margin-top : 2rem;
+  text-align : center;
+  color : #1F0812;
+  font-size : 3rem;
+}
+.scoreBoard{
+  margin-top : 10rem;
+  justify-content : space-evenly;
+  align-items : center;
+  height : 50px;
+  display : flex;
+}
+#userScore, #compScore{
+  font-size : 5rem;
+  color : #37515F;
+}
+.compSide{
+  margin-top : 3rem;
+  display : flex;
+  align-items : center;
+  justify-content : space-evenly;
+  height : 15vh;
+}
+.compChoice{
+  height : 20rem;
+  width : 20rem;
+  border-radius : 50%;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+#rock{
+  background-image : url("images/stone.png");
+  background-size : cover;
+  background-position : center;
+}
+#paper{
+  background-image : url("images/paper.png");
+  background-size : cover;
+  background-position : center;
+}
+#scissors{
+  background-image : url("images/scissors.png");
+  background-size : cover;
+    background-position : center;
+}
+.name1{
+  height : 100px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+.message{
+  margin-top : 4rem;
+  text-align : center;
+}
+#msg{
+  border-radius : 1rem;
+  display : inline;
+  background-color : #B98B82;
+  height : 100px;
+  padding : 3rem;
+}
+.userSide{
+  margin-top : 3rem;
+  display : flex;
+  align-items : center;
+  justify-content : space-evenly;
+  height : 15vh;
+}
+.userChoice{
+  margin-top : 7rem;
+  height : 20rem;
+  width : 20rem;
+  border-radius : 50%;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+.name2{
+  margin-top : 5rem;
+  height : 100px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+ @media (max-width: 600px) {
+  h1 { font-size: 1.4rem; }
+  #userScore, #compScore { font-size: 1.8rem; }
+  .choice { width: 24vw; height: 24vw; }
+}
