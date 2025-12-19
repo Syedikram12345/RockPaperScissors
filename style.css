@@ -27,7 +27,7 @@ h1{
   color : #37515F;
 }
 .compSide{
-  margin-top : 3rem;
+  margin-top : 10rem;
   display : flex;
   align-items : center;
   justify-content : space-evenly;
@@ -57,13 +57,14 @@ h1{
     background-position : center;
 }
 .name1{
+  margin-top : 5rem;
   height : 100px;
   display : flex;
   justify-content : center;
   align-items : center;
 }
 .message{
-  margin-top : 4rem;
+  margin-top : 5rem;
   text-align : center;
 }
 #msg{
@@ -74,7 +75,7 @@ h1{
   padding : 3rem;
 }
 .userSide{
-  margin-top : 3rem;
+  margin-top : 10rem;
   display : flex;
   align-items : center;
   justify-content : space-evenly;
@@ -90,7 +91,7 @@ h1{
   justify-content : center;
 }
 .name2{
-  margin-top : 5rem;
+  margin-top : 6rem;
   height : 100px;
   display : flex;
   justify-content : center;
